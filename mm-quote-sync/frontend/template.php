@@ -2,7 +2,9 @@
 if (!defined('ABSPATH')) {
     exit;
 }
-$loading_text = esc_html($mmqs_config['ui_text']['loading'] ?? 'Finding your neighbourhood - hang tight!');
+$ui_text = is_array($mmqs_config['ui_text'] ?? null) ? $mmqs_config['ui_text'] : [];
+$loading_text = esc_html($ui_text['loading'] ?? 'Finding your neighbourhood - hang tight!');
+$lordicon_src = esc_url($ui_text['lordicon_src'] ?? 'https://cdn.lordicon.com/tdrtiskw.json');
 ?>
 <script src="https://cdn.lordicon.com/lordicon.js"></script>
 <style>
@@ -170,7 +172,7 @@ $loading_text = esc_html($mmqs_config['ui_text']['loading'] ?? 'Finding your nei
     <div class="loading-content">
         <div class="ha-lordicon-wrapper">
             <lord-icon
-                src="/wp-content/uploads/2025/08/wired-outline-1522-housekeeper-hover-pinch.json"
+                src="<?php echo $lordicon_src; ?>"
                 trigger="loop" stroke="20" target=".ha-lordicon-wrapper"
                 colors="primary:#121331,secondary:#08a88a,tertiary:#0816A8,quaternary:#2CA808"
                 style="width:150px;height:150px">

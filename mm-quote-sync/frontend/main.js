@@ -2,7 +2,7 @@
     if (!$) return;
 
     var mmqsConfig = window.mmqsConfig || {};
-    var ajaxUrl = mmqsConfig.ajax_url || '';
+    var ajaxUrl = mmqsConfig.ajax_url || (window.mmqsAjaxUrl || '/wp-admin/admin-ajax.php');
     var primaryFormId = mmqsConfig.primary_form_id || '4333';
     var secondaryFormId = mmqsConfig.secondary_form_id || '4331';
     var fieldMap = mmqsConfig.field_map || {};
