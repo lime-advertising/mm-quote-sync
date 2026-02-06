@@ -5,6 +5,8 @@ if (!defined('ABSPATH')) {
 $ui_text = is_array($mmqs_config['ui_text'] ?? null) ? $mmqs_config['ui_text'] : [];
 $loading_text = esc_html($ui_text['loading'] ?? 'Finding your neighbourhood - hang tight!');
 $lordicon_src = esc_url($ui_text['lordicon_src'] ?? 'https://cdn.lordicon.com/tdrtiskw.json');
+$primary_form_id = sanitize_text_field($mmqs_config['primary_form_id'] ?? '');
+$secondary_form_id = sanitize_text_field($mmqs_config['secondary_form_id'] ?? '');
 ?>
 <script src="https://cdn.lordicon.com/lordicon.js"></script>
 <style>
@@ -143,6 +145,22 @@ $lordicon_src = esc_url($ui_text['lordicon_src'] ?? 'https://cdn.lordicon.com/td
         Postal Code not found. Please try another one. (ex. T6N or T6N 1B7)
     </div>
     <?php wp_nonce_field('check_postal_code', 'postal_code_nonce'); ?>
+
+    <div id="mmqs-forms">
+        <?php
+        if ($primary_form_id !== '') {
+            echo do_shortcode('[wpforms id="' . esc_attr($primary_form_id) . '"]');
+        } else {
+            echo '<p>Primary form ID missing.</p>';
+        }
+
+        if ($secondary_form_id !== '') {
+            echo do_shortcode('[wpforms id="' . esc_attr($secondary_form_id) . '"]');
+        } else {
+            echo '<p>Secondary form ID missing.</p>';
+        }
+        ?>
+    </div>
 
     <div id="option-buttons" style="display: none;">
         <h2>How would you like to get a quote?</h2>
