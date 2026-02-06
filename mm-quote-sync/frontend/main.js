@@ -3,12 +3,12 @@
 
     var mmqsConfig = window.mmqsConfig || {};
     var ajaxUrl = mmqsConfig.ajax_url || (window.mmqsAjaxUrl || '/wp-admin/admin-ajax.php');
-    var primaryFormId = mmqsConfig.primary_form_id || '4333';
-    var secondaryFormId = mmqsConfig.secondary_form_id || '4331';
+    var primaryFormId = mmqsConfig.primary_form_id || '';
+    var secondaryFormId = mmqsConfig.secondary_form_id || '';
     var fieldMap = mmqsConfig.field_map || {};
     var uiText = mmqsConfig.ui_text || {};
-    var primaryFields = fieldMap.primary || { address: '1', postal: '1', province: '1', city: '1' };
-    var secondaryFields = fieldMap.secondary || { address: '82', postal: '82', province: '82', city: '82' };
+    var primaryFields = fieldMap.primary || {};
+    var secondaryFields = fieldMap.secondary || {};
 
     var primaryFormSelector = '#wpforms-form-' + primaryFormId;
     var secondaryFormSelector = '#wpforms-form-' + secondaryFormId;
@@ -18,23 +18,23 @@
     }
 
     var primarySelectors = {
-        address1: fieldSelector(primaryFields.address || primaryFields.postal || '1', 'address1'),
-        address2: fieldSelector(primaryFields.address || primaryFields.postal || '1', 'address2'),
-        city: fieldSelector(primaryFields.city || primaryFields.address || '1', 'city'),
-        state: fieldSelector(primaryFields.province || primaryFields.address || '1', 'state'),
-        postal: fieldSelector(primaryFields.postal || primaryFields.address || '1', 'postal')
+        address1: fieldSelector(primaryFields.address || primaryFields.postal || '', 'address1'),
+        address2: fieldSelector(primaryFields.address || primaryFields.postal || '', 'address2'),
+        city: fieldSelector(primaryFields.city || primaryFields.address || '', 'city'),
+        state: fieldSelector(primaryFields.province || primaryFields.address || '', 'state'),
+        postal: fieldSelector(primaryFields.postal || primaryFields.address || '', 'postal')
     };
 
     var secondarySelectors = {
-        address1: fieldSelector(secondaryFields.address || secondaryFields.postal || '82', 'address1'),
-        address2: fieldSelector(secondaryFields.address || secondaryFields.postal || '82', 'address2'),
-        city: fieldSelector(secondaryFields.city || secondaryFields.address || '82', 'city'),
-        state: fieldSelector(secondaryFields.province || secondaryFields.address || '82', 'state'),
-        postal: fieldSelector(secondaryFields.postal || secondaryFields.address || '82', 'postal')
+        address1: fieldSelector(secondaryFields.address || secondaryFields.postal || '', 'address1'),
+        address2: fieldSelector(secondaryFields.address || secondaryFields.postal || '', 'address2'),
+        city: fieldSelector(secondaryFields.city || secondaryFields.address || '', 'city'),
+        state: fieldSelector(secondaryFields.province || secondaryFields.address || '', 'state'),
+        postal: fieldSelector(secondaryFields.postal || secondaryFields.address || '', 'postal')
     };
 
-    var loadingMessage = uiText.loading || 'Finding your neighbourhood - hang tight!';
-    var notServicedMessage = uiText.not_serviced || 'Sorry, we currently do not service this area.';
+    var loadingMessage = uiText.loading || '';
+    var notServicedMessage = uiText.not_serviced || '';
 
     // Traffic Source Detection - Stores in sessionStorage (clears when browser closes)
     (function () {
@@ -172,7 +172,7 @@
     }
 
     function showLoading(message) {
-        $('.loading-text').text(message || loadingMessage);
+        $('.loading-text').text(message || loadingMessage || 'Loading...');
         $('#loading-overlay').css('display', 'flex');
     }
 
@@ -194,14 +194,22 @@
         // Use inline nonce when available; only fetch via AJAX if we truly need it.
         readInlineNonce();
 
-        $(primaryFormSelector).before('<h1 class="form-title">Enter Your Home Address</h1>');
-        $(secondaryFormSelector).parent('.wpforms-container').hide();
+        if (primaryFormId) {
+            $(primaryFormSelector).before('<h1 class="form-title">Enter Your Home Address</h1>');
+        }
+        if (secondaryFormId) {
+            $(secondaryFormSelector).parent('.wpforms-container').hide();
+        }
         $('#postal-error').removeClass('show');
-        $(primaryFormSelector).parent('.wpforms-container').show();
+        if (primaryFormId) {
+            $(primaryFormSelector).parent('.wpforms-container').show();
+        }
 
-        $(primarySelectors.postal).on('input', function () {
-            $('#postal-error').removeClass('show');
-        });
+        if (primaryFields.postal || primaryFields.address) {
+            $(primarySelectors.postal).on('input', function () {
+                $('#postal-error').removeClass('show');
+            });
+        }
 
         if (window.history.replaceState) {
             window.history.replaceState(null, null, window.location.href);

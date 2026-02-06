@@ -3,8 +3,8 @@ if (!defined('ABSPATH')) {
     exit;
 }
 $ui_text = is_array($mmqs_config['ui_text'] ?? null) ? $mmqs_config['ui_text'] : [];
-$loading_text = esc_html($ui_text['loading'] ?? 'Finding your neighbourhood - hang tight!');
-$lordicon_src = esc_url($ui_text['lordicon_src'] ?? 'https://cdn.lordicon.com/tdrtiskw.json');
+$loading_text = esc_html($ui_text['loading'] ?? '');
+$lordicon_src = esc_url($ui_text['lordicon_src'] ?? '');
 $primary_form_id = sanitize_text_field($mmqs_config['primary_form_id'] ?? '');
 $secondary_form_id = sanitize_text_field($mmqs_config['secondary_form_id'] ?? '');
 $render_form = function (string $form_id): string {
@@ -977,14 +977,16 @@ $render_form = function (string $form_id): string {
 
 <div id="loading-overlay">
     <div class="loading-content">
-        <div class="ha-lordicon-wrapper">
-            <lord-icon
-                src="<?php echo $lordicon_src; ?>"
-                trigger="loop" stroke="20" target=".ha-lordicon-wrapper"
-                colors="primary:#121331,secondary:#08a88a,tertiary:#0816A8,quaternary:#2CA808"
-                style="width:150px;height:150px">
-            </lord-icon>
-        </div>
-        <div class="loading-text"><?php echo $loading_text; ?></div>
+        <?php if ($lordicon_src !== '') : ?>
+            <div class="ha-lordicon-wrapper">
+                <lord-icon
+                    src="<?php echo $lordicon_src; ?>"
+                    trigger="loop" stroke="20" target=".ha-lordicon-wrapper"
+                    colors="primary:#121331,secondary:#08a88a,tertiary:#0816A8,quaternary:#2CA808"
+                    style="width:150px;height:150px">
+                </lord-icon>
+            </div>
+        <?php endif; ?>
+        <div class="loading-text"><?php echo $loading_text !== '' ? $loading_text : 'Loading...'; ?></div>
     </div>
 </div>
