@@ -171,7 +171,7 @@ $render_form = function (string $form_id): string {
     }
 
     /* Main Form Container */
-    #callMeForm {
+    .callMeForm {
         display: flex !important;
         text-align: center;
         padding: 20px;
@@ -191,7 +191,7 @@ $render_form = function (string $form_id): string {
     }
 
     /* Form 4331 - Detailed Form Labels */
-    #callMeForm #wpforms-form-4331 label {
+    .callMeForm label {
         min-height: 80px;
         margin-top: .5rem !important;
         height: auto !important;
@@ -202,11 +202,11 @@ $render_form = function (string $form_id): string {
     }
 
     /* Input Fields */
-    #callMeForm input[type="text"],
-    #callMeForm input[type="email"],
-    #callMeForm input[type="tel"],
-    #callMeForm input[type="number"],
-    #callMeForm textarea {
+    .callMeForm input[type="text"],
+    .callMeForm input[type="email"],
+    .callMeForm input[type="tel"],
+    .callMeForm input[type="number"],
+    .callMeForm textarea {
         width: 100%;
         padding: 10px;
         color: black !important;
@@ -219,24 +219,24 @@ $render_form = function (string $form_id): string {
     }
 
     /* Override autofill styles */
-    #callMeForm input[type="text"]:-webkit-autofill,
-    #callMeForm input[type="email"]:-webkit-autofill,
-    #callMeForm input[type="tel"]:-webkit-autofill {
+    .callMeForm input[type="text"]:-webkit-autofill,
+    .callMeForm input[type="email"]:-webkit-autofill,
+    .callMeForm input[type="tel"]:-webkit-autofill {
         -webkit-box-shadow: 0 0 0 1000px white inset !important;
         background-color: transparent !important;
     }
 
-    #callMeForm input[type="text"]:focus,
-    #callMeForm input[type="email"]:focus,
-    #callMeForm input[type="tel"]:focus,
-    #callMeForm input[type="number"]:focus,
-    #callMeForm textarea:focus {
+    .callMeForm input[type="text"]:focus,
+    .callMeForm input[type="email"]:focus,
+    .callMeForm input[type="tel"]:focus,
+    .callMeForm input[type="number"]:focus,
+    .callMeForm textarea:focus {
         background-color: transparent !important;
         outline: none;
     }
 
     /* Submit Button - Green */
-    #callMeForm .wpforms-submit {
+    .callMeForm .wpforms-submit {
         background: #7ac242 !important;
         color: white !important;
         padding: 10px 20px !important;
@@ -673,27 +673,27 @@ $render_form = function (string $form_id): string {
     }
 
     /* Fix email field alignment with phone field */
-    #callMeForm div[data-field-id="79"],
-    #callMeForm div[data-field-id="80"] {
+    .callMeForm div[data-field-id="79"],
+    .callMeForm div[data-field-id="80"] {
         display: flex !important;
         flex-direction: column !important;
         justify-content: flex-start !important;
         align-items: stretch !important;
     }
 
-    #callMeForm div[data-field-id="79"] label,
-    #callMeForm div[data-field-id="80"] label {
+    .callMeForm div[data-field-id="79"] label,
+    .callMeForm div[data-field-id="80"] label {
         margin: 0 !important;
         padding: 0 !important;
     }
 
-    #callMeForm div[data-field-id="79"] input,
-    #callMeForm div[data-field-id="80"] input {
+    .callMeForm div[data-field-id="79"] input,
+    .callMeForm div[data-field-id="80"] input {
         margin-top: 20px !important;
     }
 
     /* Ensure layout columns in field 153 are aligned at top */
-    #callMeForm div[data-field-id="153"] .wpforms-layout-column {
+    .callMeForm div[data-field-id="153"] .wpforms-layout-column {
         align-items: stretch !important;
     }
 
@@ -717,7 +717,7 @@ $render_form = function (string $form_id): string {
             max-width: 300px !important;
         }
 
-        #callMeForm label {
+        .callMeForm label {
             height: auto !important;
         }
 
@@ -739,22 +739,22 @@ $render_form = function (string $form_id): string {
         }
 
         /* Fix mobile layout overflow */
-        #callMeForm .wpforms-field-layout-columns {
+        .callMeForm .wpforms-field-layout-columns {
             flex-direction: column !important;
             gap: 0 !important;
         }
 
-        #callMeForm .wpforms-layout-column {
+        .callMeForm .wpforms-layout-column {
             max-width: 100% !important;
             width: 100% !important;
         }
 
-        #callMeForm div[data-field-id="75"] .wpforms-field-layout-columns,
-        #callMeForm div[data-field-id="153"] .wpforms-field-layout-columns {
+        .callMeForm div[data-field-id="75"] .wpforms-field-layout-columns,
+        .callMeForm div[data-field-id="153"] .wpforms-field-layout-columns {
             flex-direction: column !important;
         }
 
-        #callMeForm {
+        .callMeForm {
             padding: 10px !important;
         }
 
@@ -794,19 +794,19 @@ $render_form = function (string $form_id): string {
     }
 
     /* Additional input field fixes for WPForms */
-    #callMeForm .wpforms-field input,
-    #callMeForm .wpforms-field textarea {
+    .callMeForm .wpforms-field input,
+    .callMeForm .wpforms-field textarea {
         background-color: transparent !important;
     }
 
-    #callMeForm .wpforms-field input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
-    #callMeForm .wpforms-field textarea {
+    .callMeForm .wpforms-field input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+    .callMeForm .wpforms-field textarea {
         background-color: transparent !important;
         background-image: none !important;
     }
 
     /* Fix layout columns to be properly centered */
-    #callMeForm .wpforms-field-layout-columns {
+    .callMeForm .wpforms-field-layout-columns {
         display: flex !important;
         justify-content: center !important;
         align-items: stretch !important;
@@ -814,7 +814,7 @@ $render_form = function (string $form_id): string {
         width: 100% !important;
     }
 
-    #callMeForm .wpforms-layout-column {
+    .callMeForm .wpforms-layout-column {
         flex: 1 1 0 !important;
         max-width: 350px !important;
         display: flex !important;
@@ -824,48 +824,48 @@ $render_form = function (string $form_id): string {
     }
 
     /* Special handling for name and contact layout - first step fields */
-    #callMeForm div[data-field-id="75"] .wpforms-field-layout-columns,
-    #callMeForm div[data-field-id="153"] .wpforms-field-layout-columns {
+    .callMeForm div[data-field-id="75"] .wpforms-field-layout-columns,
+    .callMeForm div[data-field-id="153"] .wpforms-field-layout-columns {
         gap: 20px !important;
     }
 
-    #callMeForm div[data-field-id="75"] .wpforms-layout-column,
-    #callMeForm div[data-field-id="153"] .wpforms-layout-column {
+    .callMeForm div[data-field-id="75"] .wpforms-layout-column,
+    .callMeForm div[data-field-id="153"] .wpforms-layout-column {
         flex: 1 !important;
         max-width: 100% !important;
         align-items: stretch !important;
     }
 
-    #callMeForm div[data-field-id="75"] .wpforms-field,
-    #callMeForm div[data-field-id="153"] .wpforms-field {
+    .callMeForm div[data-field-id="75"] .wpforms-field,
+    .callMeForm div[data-field-id="153"] .wpforms-field {
         width: 100% !important;
     }
 
     /* Ensure pet question and other radio fields take full width */
-    #callMeForm div[data-field-id="105"],
-    #callMeForm div[data-field-id="64"],
-    #callMeForm div[data-field-id="65"],
-    #callMeForm div[data-field-id="95"],
-    #callMeForm div[data-field-id="81"] {
+    .callMeForm div[data-field-id="105"],
+    .callMeForm div[data-field-id="64"],
+    .callMeForm div[data-field-id="65"],
+    .callMeForm div[data-field-id="95"],
+    .callMeForm div[data-field-id="81"] {
         max-width: 100% !important;
         width: 100% !important;
     }
 
-    #callMeForm div[data-field-id="105"] .custom-checkbox-list,
-    #callMeForm div[data-field-id="64"] .custom-checkbox-list,
-    #callMeForm div[data-field-id="65"] .custom-checkbox-list,
-    #callMeForm div[data-field-id="95"] .custom-checkbox-list {
+    .callMeForm div[data-field-id="105"] .custom-checkbox-list,
+    .callMeForm div[data-field-id="64"] .custom-checkbox-list,
+    .callMeForm div[data-field-id="65"] .custom-checkbox-list,
+    .callMeForm div[data-field-id="95"] .custom-checkbox-list {
         max-width: 100% !important;
         width: 100% !important;
     }
 
     /* Ensure HTML fields in layouts are centered */
-    #callMeForm .wpforms-field-html {
+    .callMeForm .wpforms-field-html {
         text-align: center !important;
         width: 100% !important;
     }
 
-    #callMeForm .wpforms-field-html h3 {
+    .callMeForm .wpforms-field-html h3 {
         text-align: center !important;
         margin-bottom: 1rem !important;
         min-height: 60px !important;
@@ -875,13 +875,13 @@ $render_form = function (string $form_id): string {
     }
 
     /* Global fix for all selected button border-radius */
-    #callMeForm .wpforms-selected label,
-    #callMeForm input[type="radio"]:checked + label,
-    #callMeForm input[type="checkbox"]:checked + label {
+    .callMeForm .wpforms-selected label,
+    .callMeForm input[type="radio"]:checked + label,
+    .callMeForm input[type="checkbox"]:checked + label {
         border-radius: 15px !important;
     }
 
-    #callMeForm li.wpforms-selected label {
+    .callMeForm li.wpforms-selected label {
         border-radius: 15px !important;
     }
 
