@@ -107,6 +107,16 @@
     })();
 
     var mmNonce = null;
+    var inlineNonce = null;
+
+    function readInlineNonce() {
+        if (inlineNonce) return inlineNonce;
+        var field = document.getElementById('postal_code_nonce') || document.querySelector('input[name="postal_code_nonce"]');
+        if (field && field.value) {
+            inlineNonce = field.value;
+        }
+        return inlineNonce;
+    }
 
     function fetchNonce() {
         if (!ajaxUrl) return $.Deferred().resolve(null).promise();
@@ -128,6 +138,11 @@
 
     function ensureNonce() {
         if (mmNonce) return $.Deferred().resolve(mmNonce).promise();
+        var inline = readInlineNonce();
+        if (inline) {
+            mmNonce = inline;
+            return $.Deferred().resolve(mmNonce).promise();
+        }
         return fetchNonce();
     }
 
@@ -176,7 +191,8 @@
     }
 
     $(document).ready(function () {
-        fetchNonce();
+        // Use inline nonce when available; only fetch via AJAX if we truly need it.
+        readInlineNonce();
 
         $(primaryFormSelector).before('<h1 class="form-title">Enter Your Home Address</h1>');
         $(secondaryFormSelector).parent('.wpforms-container').hide();
