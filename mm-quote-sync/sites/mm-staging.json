@@ -1,0 +1,25 @@
+{
+    "primary_form_id": "46",
+    "secondary_form_id": "44",
+    "field_map": {
+        "primary": {
+            "address": "1",
+            "postal": "1",
+            "province": "1",
+            "city": "1"
+        },
+        "secondary": {
+            "address": "82",
+            "postal": "82",
+            "province": "82",
+            "city": "82"
+        }
+    },
+    "ui_text": {
+        "loading": "Finding your neighbourhood - hang tight!",
+        "not_serviced": "Sorry, we currently do not service this area."
+    },
+    "site_id": "mm-staging",
+    "site_url": "http://staging2.limea110.sg-host.com/",
+    "ecommerce_enabled": true
+}

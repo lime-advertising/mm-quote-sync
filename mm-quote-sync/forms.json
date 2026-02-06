@@ -1,0 +1,1523 @@
+{
+    "exported_at": "2026-02-06T19:46:27+00:00",
+    "primary_form_id": "46",
+    "secondary_form_id": "44",
+    "forms": {
+        "primary": {
+            "fields": {
+                "1": {
+                    "id": "1",
+                    "type": "address",
+                    "label": "Address ",
+                    "scheme": "international",
+                    "description": "",
+                    "required": "1",
+                    "size": "large",
+                    "address1_placeholder": "Full Street Address *",
+                    "address1_default": "",
+                    "address2_placeholder": "Apt/Suite #",
+                    "address2_default": "",
+                    "city_placeholder": "City",
+                    "city_default": "",
+                    "state_placeholder": "Province",
+                    "state_default": "",
+                    "postal_placeholder": "Postal Code",
+                    "postal_default": "",
+                    "country_hide": "1",
+                    "country_placeholder": "",
+                    "country_default": "CA",
+                    "css": "bookonline",
+                    "label_hide": "1",
+                    "sublabel_hide": "1",
+                    "enable_address_autocomplete": "1",
+                    "map_position": "above"
+                },
+                "5": {
+                    "id": "5",
+                    "type": "hidden",
+                    "label": "Hidden Field",
+                    "label_disable": "1",
+                    "default_value": "",
+                    "css": "src-field",
+                    "label_hide": "1"
+                }
+            },
+            "id": 46,
+            "field_id": 6,
+            "settings": {
+                "themes": {
+                    "wpformsTheme": "default",
+                    "isCustomTheme": "",
+                    "themeName": "",
+                    "fieldSize": "medium",
+                    "fieldBorderStyle": "solid",
+                    "fieldBorderSize": "1",
+                    "fieldBorderRadius": "3",
+                    "fieldBackgroundColor": "#ffffff",
+                    "fieldBorderColor": "rgba(0, 0, 0, 0.25)",
+                    "fieldTextColor": "rgba(0, 0, 0, 0.7)",
+                    "labelSize": "medium",
+                    "labelColor": "rgba(0, 0, 0, 0.85)",
+                    "labelSublabelColor": "rgba(0, 0, 0, 0.55)",
+                    "labelErrorColor": "#d63637",
+                    "buttonSize": "medium",
+                    "buttonBorderStyle": "none",
+                    "buttonBorderSize": "1",
+                    "buttonBorderRadius": "3",
+                    "buttonBackgroundColor": "#066aab",
+                    "buttonBorderColor": "#066aab",
+                    "buttonTextColor": "#ffffff",
+                    "containerPadding": "0",
+                    "containerBorderStyle": "none",
+                    "containerBorderWidth": "1",
+                    "containerBorderRadius": "3",
+                    "containerBorderColor": "#000000",
+                    "containerShadowSize": "none",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "backgroundImage": "none",
+                    "backgroundSize": "cover",
+                    "backgroundUrl": "url()",
+                    "fieldMenuColor": "#ffffff",
+                    "pageBreakColor": "#066aab",
+                    "customCss": "",
+                    "copyPasteJsonValue": "{\"themeName\":\"\",\"isCustomTheme\":\"\",\"wpformsTheme\":\"default\",\"customCss\":\"\",\"containerPadding\":\"0\",\"containerBorderStyle\":\"none\",\"containerBorderWidth\":\"1\",\"containerBorderRadius\":\"3\",\"containerShadowSize\":\"none\",\"containerBorderColor\":\"#000000\",\"fieldSize\":\"medium\",\"fieldBorderStyle\":\"solid\",\"fieldBorderRadius\":\"3\",\"fieldBorderSize\":\"1\",\"fieldBackgroundColor\":\"#ffffff\",\"fieldBorderColor\":\"rgba(0, 0, 0, 0.25)\",\"fieldTextColor\":\"rgba(0, 0, 0, 0.7)\",\"fieldMenuColor\":\"#ffffff\",\"pageBreakColor\":\"#066aab\",\"labelSize\":\"medium\",\"labelColor\":\"rgba(0, 0, 0, 0.85)\",\"labelSublabelColor\":\"rgba(0, 0, 0, 0.55)\",\"labelErrorColor\":\"#d63637\",\"buttonSize\":\"medium\",\"buttonBorderStyle\":\"none\",\"buttonBorderSize\":\"1\",\"buttonBorderRadius\":\"3\",\"buttonBackgroundColor\":\"#066aab\",\"buttonBorderColor\":\"#066aab\",\"buttonTextColor\":\"#ffffff\",\"backgroundColor\":\"rgba(0, 0, 0, 0)\",\"backgroundPosition\":\"center center\",\"backgroundUrl\":\"url()\",\"backgroundRepeat\":\"no-repeat\",\"backgroundSize\":\"cover\",\"backgroundSizeMode\":\"cover\",\"backgroundWidth\":\"100\",\"backgroundHeight\":\"100\",\"backgroundImage\":\"none\"}"
+                },
+                "form_title": "Ecom Form!",
+                "form_desc": "",
+                "submit_text": "Submit",
+                "submit_text_processing": "Submitting ...",
+                "form_class": "requestForm",
+                "submit_class": "requestFormBtn",
+                "ajax_submit": "1",
+                "notifications": {
+                    "1": {
+                        "enable": "1",
+                        "notification_name": "Default Notification",
+                        "email": "{admin_email}",
+                        "subject": "New Entry: Blank Form (ID #3090)",
+                        "sender_name": "Merry Maids of Ottawa",
+                        "sender_address": "{admin_email}",
+                        "replyto": "",
+                        "message": "{all_fields}",
+                        "template": "",
+                        "file_upload_attachment_fields": [],
+                        "entry_csv_attachment_entry_information": [],
+                        "entry_csv_attachment_file_name": "entry-details"
+                    }
+                },
+                "confirmations": {
+                    "1": {
+                        "name": "Default Confirmation",
+                        "type": "message",
+                        "message": "",
+                        "page": "43",
+                        "page_url_parameters": "",
+                        "redirect": "",
+                        "message_entry_preview_style": "basic"
+                    }
+                },
+                "antispam": "1",
+                "anti_spam": {
+                    "time_limit": {
+                        "duration": "2"
+                    },
+                    "filtering_store_spam": "1",
+                    "country_filter": {
+                        "action": "allow",
+                        "country_codes": [],
+                        "message": "Sorry, this form does not accept submissions from your country."
+                    },
+                    "keyword_filter": {
+                        "message": "Sorry, your message can't be submitted because it contains prohibited words."
+                    }
+                },
+                "form_tags": [],
+                "store_spam_entries": "0"
+            },
+            "search_terms": "",
+            "providers": {
+                "constant-contact-v3": [],
+                "salesforce": []
+            },
+            "meta": {
+                "template": "blank"
+            }
+        },
+        "secondary": {
+            "fields": {
+                "15": {
+                    "id": "15",
+                    "type": "pagebreak",
+                    "position": "top",
+                    "indicator": "progress",
+                    "indicator_color": "#72b239",
+                    "progress_text": "Step {current_page} of {last_page}",
+                    "title": "",
+                    "nav_align": "",
+                    "css": ""
+                },
+                "75": {
+                    "label": "Layout",
+                    "name": "Layout",
+                    "description": "",
+                    "label_hide": "1",
+                    "size": "large",
+                    "preset": "50-50",
+                    "display": "columns",
+                    "columns": [
+                        {
+                            "width_custom": "",
+                            "width_preset": "50",
+                            "fields": [
+                                77
+                            ]
+                        },
+                        {
+                            "width_custom": "",
+                            "width_preset": "50",
+                            "fields": [
+                                78
+                            ]
+                        }
+                    ],
+                    "id": "75",
+                    "type": "layout"
+                },
+                "77": {
+                    "id": "77",
+                    "type": "name",
+                    "label": "First Name",
+                    "format": "simple",
+                    "description": "",
+                    "required": "1",
+                    "size": "medium",
+                    "simple_placeholder": "First Name *",
+                    "simple_default": "",
+                    "first_placeholder": "",
+                    "first_default": "",
+                    "middle_placeholder": "",
+                    "middle_default": "",
+                    "last_placeholder": "",
+                    "last_default": "",
+                    "css": "",
+                    "label_hide": "1"
+                },
+                "78": {
+                    "id": "78",
+                    "type": "name",
+                    "label": "Last Name",
+                    "format": "simple",
+                    "description": "",
+                    "required": "1",
+                    "size": "medium",
+                    "simple_placeholder": "Last Name *",
+                    "simple_default": "",
+                    "first_placeholder": "",
+                    "first_default": "",
+                    "middle_placeholder": "",
+                    "middle_default": "",
+                    "last_placeholder": "",
+                    "last_default": "",
+                    "css": "",
+                    "label_hide": "1"
+                },
+                "153": {
+                    "label": "Layout",
+                    "name": "Layout",
+                    "description": "",
+                    "label_hide": "1",
+                    "size": "large",
+                    "preset": "50-50",
+                    "display": "rows",
+                    "columns": [
+                        {
+                            "width_custom": "",
+                            "width_preset": "50",
+                            "fields": [
+                                80
+                            ]
+                        },
+                        {
+                            "width_custom": "",
+                            "width_preset": "50",
+                            "fields": [
+                                79
+                            ]
+                        }
+                    ],
+                    "id": "153",
+                    "type": "layout"
+                },
+                "80": {
+                    "id": "80",
+                    "type": "phone",
+                    "label": "Phone",
+                    "format": "smart",
+                    "description": "",
+                    "required": "1",
+                    "size": "medium",
+                    "placeholder": "Phone *",
+                    "default_value": "",
+                    "css": "",
+                    "label_hide": "1"
+                },
+                "79": {
+                    "id": "79",
+                    "type": "email",
+                    "label": "Email",
+                    "description": "",
+                    "required": "1",
+                    "size": "medium",
+                    "placeholder": "Email *",
+                    "confirmation_placeholder": "",
+                    "default_value": false,
+                    "filter_type": "",
+                    "allowlist": "",
+                    "denylist": "",
+                    "css": "",
+                    "label_hide": "1"
+                },
+                "82": {
+                    "id": "82",
+                    "type": "address",
+                    "label": "Address",
+                    "scheme": "international",
+                    "description": "",
+                    "required": "1",
+                    "size": "large",
+                    "address1_placeholder": "Full Street Address *",
+                    "address1_default": "",
+                    "address2_placeholder": "Apt/Suite #",
+                    "address2_default": "",
+                    "city_placeholder": "City",
+                    "city_default": "",
+                    "state_placeholder": "Province",
+                    "state_default": "",
+                    "postal_placeholder": "Postal Code",
+                    "postal_default": "",
+                    "country_hide": "1",
+                    "country_placeholder": "",
+                    "country_default": "CA",
+                    "css": "",
+                    "label_hide": "1",
+                    "sublabel_hide": "1",
+                    "enable_address_autocomplete": "1",
+                    "map_position": "above"
+                },
+                "86": {
+                    "id": "86",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "divider1"
+                },
+                "81": {
+                    "id": "81",
+                    "type": "radio",
+                    "label": "Want your price estimate faster? Take two minutes to answer a few questions.",
+                    "choices": {
+                        "1": {
+                            "default": "1",
+                            "label": "No, Thanks.",
+                            "value": "",
+                            "image": "http://limea63.sg-host.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-05-at-9.44.59-AM.png",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "Yes, Sure.",
+                            "value": "",
+                            "image": "http://limea63.sg-host.com/wp-content/uploads/2024/01/Screen-Shot-2024-01-05-at-9.45.43-AM.png",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#6fff00",
+                    "choices_icons_size": "medium",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "required": "1",
+                    "input_columns": "",
+                    "dynamic_choices": "",
+                    "css": "fastBtn"
+                },
+                "99": {
+                    "id": "99",
+                    "type": "divider",
+                    "label": "Tell us about your home!",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "tellUs",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "72": {
+                    "label": "Tell us about your home!",
+                    "name": "Layout",
+                    "description": "",
+                    "label_hide": "1",
+                    "size": "large",
+                    "preset": "33-67",
+                    "display": "columns",
+                    "columns": [
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                70
+                            ]
+                        },
+                        {
+                            "width_preset": "67",
+                            "fields": [
+                                71
+                            ]
+                        }
+                    ],
+                    "id": "72",
+                    "type": "layout"
+                },
+                "70": {
+                    "id": "70",
+                    "type": "html",
+                    "name": "",
+                    "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"96\" class=\"bed\" viewBox=\"0 0 96 96\" fill=\"none\">\r\n<path d=\"M16.5809 58H42.8961C44.7568 58 45.3835 55.5142 43.7453 54.6321C43.5827 54.5445 43.4076 54.4827 43.2262 54.4487L35.5 53L28.3255 52.1032C27.7789 52.0349 27.2248 52.0573 26.6856 52.1697L16.2051 54.3531C15.7517 54.4476 15.3505 54.7092 15.0814 55.0861C14.2102 56.3058 15.082 58 16.5809 58Z\" fill=\"#E2F9E0\"/>\r\n<path d=\"M52.5809 58H82.4646C83.0387 58 83.1527 57.1865 82.6006 57.0287C82.5343 57.0098 82.4726 56.9772 82.4196 56.933L80.4754 55.3128C79.8353 54.7794 79.072 54.4144 78.255 54.251L72 53L64.3078 52.095C63.7728 52.0321 63.2311 52.056 62.7038 52.1659L52.2051 54.3531C51.7517 54.4476 51.3505 54.7092 51.0814 55.0861C50.2102 56.3058 51.082 58 52.5809 58Z\" fill=\"#E2F9E0\"/>\r\n<path d=\"M12.5 87H7L7.5 91L11 92L12.5 87Z\" fill=\"#E2F9E0\"/>\r\n<path d=\"M89.5 87H84L84.5 91L88 92L89.5 87Z\" fill=\"#E2F9E0\"/>\r\n<path d=\"M6.70769 61.8252V61.8252C5.21227 61.8252 4 63.0375 4 64.5329V84.1273C4 85.6227 5.21227 86.8349 6.70769 86.8349V86.8349M6.70769 61.8252V60.9979C6.70769 59.3529 8.04119 58.0194 9.68615 58.0194V58.0194M6.70769 61.8252H89.0215M89.0215 61.8252V61.8252C90.6665 61.8252 92 63.1587 92 64.8037V83.8565C92 85.5014 90.6665 86.8349 89.0215 86.8349V86.8349M89.0215 61.8252V60.7271C89.0215 59.2317 87.8093 58.0194 86.3139 58.0194V58.0194M6.70769 86.8349V89.1569C6.70769 90.7271 7.98058 92 9.55077 92V92C11.121 92 12.3938 90.7271 12.3938 89.1569V86.8349M6.70769 86.8349H12.3938M12.3938 86.8349H84.4185M84.4185 86.8349V89.6985C84.4185 90.9696 85.4489 92 86.72 92V92C87.9911 92 89.0215 90.9696 89.0215 89.6985V86.8349M84.4185 86.8349H89.0215M86.3139 58.0194V41C86.3139 38.2386 84.0753 36 81.3139 36H14.6862C11.9247 36 9.68615 38.2386 9.68615 41V58.0194M86.3139 58.0194H82.2523M9.68615 58.0194H14.56M14.56 58.0194C14.56 58.0194 12.6646 52.0388 29.7231 52.0388C45.1569 52.0388 45.1569 58.0194 45.1569 58.0194M14.56 58.0194H45.1569M45.1569 58.0194H50.3015M50.3015 58.0194C50.3015 58.0194 50.3015 52.0388 66.2769 52.0388C82.2523 52.0388 82.2523 58.0194 82.2523 58.0194M50.3015 58.0194H82.2523\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<path d=\"M66 16.5754C71.8531 13.7242 73.8073 10.918 75.1915 4C76.6328 10.6062 78.4748 13.5092 84.383 16.5754C77.9602 18.797 76.2696 21.6178 75.1915 28.2526C74.607 21.6248 73.2121 18.6453 66 16.5754Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n<path d=\"M9 32.3836C12.2517 30.4828 13.3374 28.612 14.1064 24C14.9071 28.4042 15.9305 30.3395 19.2128 32.3836C15.6445 33.8646 14.7053 35.7452 14.1064 40.1684C13.7817 35.7499 13.0067 33.7635 9 32.3836Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n<path d=\"M52 84.4795C56.5524 82.1035 58.0723 79.765 59.1489 74C60.27 79.5052 61.7026 81.9243 66.2979 84.4795C61.3024 86.3308 59.9875 88.6815 59.1489 94.2105C58.6943 88.6873 57.6094 86.2044 52 84.4795Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n</svg>",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "71": {
+                    "id": "71",
+                    "type": "html",
+                    "name": "",
+                    "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"97\" class=\"sink\" viewBox=\"0 0 96 97\" fill=\"none\">\r\n<path d=\"M56.5158 38.75C57.8921 38.75 58.9582 39.9725 58.7751 41.3455C58.0196 47.0099 56.6368 58.5333 56.6786 66.7816C56.7177 74.4927 58.0317 85.2227 58.7667 90.6457C58.9531 92.0215 57.8856 93.25 56.5093 93.25H39.4907C38.1144 93.25 37.0469 92.0215 37.2333 90.6457C37.9683 85.2227 39.2823 74.4927 39.3214 66.7816C39.3632 58.5333 37.9804 47.0099 37.2249 41.3455C37.0418 39.9725 38.1079 38.75 39.4842 38.75H56.5158Z\" fill=\"white\" stroke=\"#2897B9\" stroke-width=\"1.5\"/>\r\n<path d=\"M33 20H41C41.5523 20 42 20.4477 42 21V23.1818V26C42 26.5523 41.5523 27 41 27H40C39.4477 27 39 26.5523 39 26V24.1818C39 23.6295 38.5523 23.1818 38 23.1818H33C32.4477 23.1818 32 22.7341 32 22.1818V21C32 20.4477 32.4477 20 33 20Z\" fill=\"#E2F9E0\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<path d=\"M63 20H55C54.4477 20 54 20.4477 54 21V23.1818V26C54 26.5523 54.4477 27 55 27H56C56.5523 27 57 26.5523 57 26V24.1818C57 23.6295 57.4477 23.1818 58 23.1818H63C63.5523 23.1818 64 22.7341 64 22.1818V21C64 20.4477 63.5523 20 63 20Z\" fill=\"#E2F9E0\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<path d=\"M45.75 14.2895V26C45.75 26.5523 46.1977 27 46.75 27H50C50.5523 27 51 26.5523 51 26V8.84211C51 8.84211 51 4 46.5 4C42 4 42 8.84211 42 8.84211V13.2895C42 13.8418 42.4477 14.2895 43 14.2895H45.75Z\" fill=\"#E2F9E0\"/>\r\n<path d=\"M45.75 14.2895V26C45.75 26.5523 46.1977 27 46.75 27H50C50.5523 27 51 26.5523 51 26V8.84211C51 8.84211 51 8.84211 51 8.84211C51 8.84211 51 4 46.5 4C42 4 42 8.84211 42 8.84211C42 8.84211 42 8.84211 42 8.84211V13.2895C42 13.8418 42.4477 14.2895 43 14.2895H45.75ZM45.75 14.2895H46.25C46.8023 14.2895 47.25 13.8418 47.25 13.2895V10.6579\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<path d=\"M76.9993 27H18.9993C18.447 27 17.9993 27.4477 17.9993 28V38.7537C17.9993 38.8343 17.9898 38.9109 17.982 38.9911C17.8865 39.9831 18.2616 47 47.9993 47C77.737 47 78.1121 39.9831 78.0166 38.9911C78.0088 38.9109 77.9993 38.8343 77.9993 38.7537V28C77.9993 27.4477 77.5516 27 76.9993 27Z\" fill=\"white\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<path d=\"M35 86.2392C39.1916 83.9176 40.5911 81.6328 41.5823 76C42.6145 81.3789 43.9336 83.7426 48.1647 86.2392C43.5651 88.048 42.3544 90.3448 41.5823 95.747C41.1638 90.3505 40.1649 87.9245 35 86.2392Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n<path d=\"M20 30.2593C22.8656 28.6134 23.8223 26.9935 24.5 23C25.2056 26.8135 26.1075 28.4892 29 30.2593C25.8555 31.5416 25.0278 33.17 24.5 37C24.2138 33.174 23.5309 31.4541 20 30.2593Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n<path d=\"M60 45.9276C66.5203 42.3163 68.6972 38.7621 70.2392 30C71.8448 38.3672 73.8968 42.044 80.4784 45.9276C73.3235 48.7413 71.4402 52.3141 70.2392 60.7176C69.5881 52.323 68.0342 48.5492 60 45.9276Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linejoin=\"round\"/>\r\n</svg>",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "53": {
+                    "label": "Layout",
+                    "name": "Layout",
+                    "description": "",
+                    "label_hide": "1",
+                    "size": "large",
+                    "preset": "33-33-33",
+                    "display": "columns",
+                    "columns": [
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                116,
+                                118
+                            ]
+                        },
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                117,
+                                119
+                            ]
+                        },
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                121,
+                                120
+                            ]
+                        }
+                    ],
+                    "id": "53",
+                    "type": "layout"
+                },
+                "116": {
+                    "id": "116",
+                    "type": "html",
+                    "name": "Bedrooms",
+                    "code": "<h3>Bedrooms</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus\" type=\"button\" onclick=\"decrementValue()\">-</button>\r\n        <input type=\"text\" id=\"counterValue\" class=\"counter-value\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus\" type=\"button\" onclick=\"incrementValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value -->\r\n<input type=\"hidden\" class=\"hiddenBedrooms\" >\r\n\r\n<script>\r\nfunction updateCounterValue() {\r\n    var value = parseInt(document.getElementById('counterValue').value, 10);\r\n    // Directly target the WPForms input field for Bedrooms by ID\r\n    var wpFormsInput = document.getElementById('wpforms-4331-field_118');\r\n    if (wpFormsInput) {\r\n        wpFormsInput.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementValue() {\r\n    var value = parseInt(document.getElementById('counterValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterValue').value = value;\r\n    updateCounterValue(); // Update WPForms field value\r\n}\r\n\r\nfunction decrementValue() {\r\n    var value = parseInt(document.getElementById('counterValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterValue').value = value;\r\n    updateCounterValue(); // Update WPForms field value\r\n}\r\n</script>\r\n\r\n",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "118": {
+                    "id": "118",
+                    "type": "text",
+                    "label": "Bedrooms",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenBedrooms",
+                    "map_position": "above"
+                },
+                "117": {
+                    "id": "117",
+                    "type": "html",
+                    "name": "Half Baths",
+                    "code": "<h3>Half Baths</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-bath\" type=\"button\" onclick=\"decrementBathValue()\">-</button>\r\n        <input type=\"text\" id=\"counterBathValue\" class=\"counter-value-bath\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-bath\" type=\"button\" onclick=\"incrementBathValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for half baths -->\r\n<input type=\"hidden\" id=\"hiddenhalfBath\" >\r\n\r\n<script>\r\nfunction updateBathCounterValue() {\r\n    var value = parseInt(document.getElementById('counterBathValue').value, 10);\r\n    // Directly target the WPForms input field for Half Baths by its unique ID\r\n    var wpFormsInputBath = document.getElementById('wpforms-4331-field_119'); // Example ID, adjust as needed\r\n    if (wpFormsInputBath) {\r\n        wpFormsInputBath.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementBathValue() {\r\n    var value = parseInt(document.getElementById('counterBathValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterBathValue').value = value;\r\n    updateBathCounterValue(); // Update WPForms field value for half baths\r\n}\r\n\r\nfunction decrementBathValue() {\r\n    var value = parseInt(document.getElementById('counterBathValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterBathValue').value = value;\r\n    updateBathCounterValue(); // Update WPForms field value for half baths\r\n}\r\n</script>\r\n",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "119": {
+                    "id": "119",
+                    "type": "text",
+                    "label": "Half Baths",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenhalfBath",
+                    "map_position": "above"
+                },
+                "121": {
+                    "id": "121",
+                    "type": "html",
+                    "name": "Full Baths",
+                    "code": "<h3>Full Baths</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-full-bath\" type=\"button\" onclick=\"decrementFullBathValue()\">-</button>\r\n        <input type=\"text\" id=\"counterFullBathValue\" class=\"counter-value-full-bath\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-full-bath\" type=\"button\" onclick=\"incrementFullBathValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for full baths -->\r\n<input type=\"hidden\" id=\"hiddenFullBath\" >\r\n\r\n<script>\r\nfunction updateFullBathCounterValue() {\r\n    var value = parseInt(document.getElementById('counterFullBathValue').value, 10);\r\n    // Directly target the WPForms input field for Full Baths by its unique ID\r\n    var wpFormsInputFullBath = document.getElementById('wpforms-4331-field_120'); // Example ID, adjust as needed\r\n    if (wpFormsInputFullBath) {\r\n        wpFormsInputFullBath.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementFullBathValue() {\r\n    var value = parseInt(document.getElementById('counterFullBathValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterFullBathValue').value = value;\r\n    updateFullBathCounterValue(); // Update WPForms field value for full baths\r\n}\r\n\r\nfunction decrementFullBathValue() {\r\n    var value = parseInt(document.getElementById('counterFullBathValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterFullBathValue').value = value;\r\n    updateFullBathCounterValue(); // Update WPForms field value for full baths\r\n}\r\n</script>\r\n\r\n\r\n",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "120": {
+                    "id": "120",
+                    "type": "text",
+                    "label": "Full Baths",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenFullBath",
+                    "map_position": "above"
+                },
+                "123": {
+                    "id": "123",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "linedDivide"
+                },
+                "14": {
+                    "id": "14",
+                    "type": "pagebreak",
+                    "position": "",
+                    "title": "",
+                    "next": "Next Step",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step",
+                    "css": ""
+                },
+                "95": {
+                    "id": "95",
+                    "type": "radio",
+                    "label": "The Kitchen and Living Room have been already added, do you want additional rooms cleaned?",
+                    "choices": {
+                        "1": {
+                            "label": "Yes",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "No",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "input_columns": "2",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "98": {
+                    "id": "98",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "divider2",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "97": {
+                    "id": "97",
+                    "type": "checkbox",
+                    "label": "Which additional rooms would you like cleaned?",
+                    "choices": {
+                        "1": {
+                            "label": "Office",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "Dining Room",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "3": {
+                            "label": "Laundry Room",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "5": {
+                            "label": "Family Room",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "6": {
+                            "label": "Playroom",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "7": {
+                            "label": "Not Listed",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "required": "1",
+                    "input_columns": "2",
+                    "choice_limit": "",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "95",
+                                "operator": "==",
+                                "value": "1"
+                            },
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "122": {
+                    "id": "122",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "linedDivide",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "19": {
+                    "id": "19",
+                    "type": "pagebreak",
+                    "position": "",
+                    "title": "",
+                    "next": "Next Step",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step",
+                    "css": "firstNext2"
+                },
+                "112": {
+                    "id": "112",
+                    "type": "html",
+                    "name": "",
+                    "code": "<svg class=\"pet\" xmlns=\"http://www.w3.org/2000/svg\" width=\"141\" height=\"136\" viewBox=\"0 0 141 136\" fill=\"none\">\r\n<path d=\"M3.83109 62.0196L69.6407 2.23483C70.4095 1.53648 71.5848 1.54273 72.3461 2.24922L136.765 62.034C138.098 63.2707 137.223 65.5 135.405 65.5H129.5C128.395 65.5 127.5 66.3954 127.5 67.5V117.5C127.5 118.605 126.605 119.5 125.5 119.5H17C15.8954 119.5 15 118.605 15 117.5V67.5C15 66.3954 14.1046 65.5 13 65.5H5.17591C3.3475 65.5 2.47774 63.2491 3.83109 62.0196Z\" fill=\"#E4FDE1\" stroke=\"#2897B9\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-dasharray=\"10 10\"/>\r\n<rect x=\"4.06059\" y=\"111.617\" width=\"152.44\" height=\"31.5\" rx=\"4.25\" transform=\"rotate(-44.3472 4.06059 111.617)\" fill=\"white\" stroke=\"#40A3BE\" stroke-width=\"1.5\"/>\r\n<path d=\"M26.0496 120.49C25.7677 120.186 25.2932 120.169 24.9897 120.45C24.6861 120.732 24.6686 121.207 24.9504 121.51L26.0496 120.49ZM32.5496 127.49L26.0496 120.49L24.9504 121.51L31.4504 128.51L32.5496 127.49Z\" fill=\"#2897B9\"/>\r\n<path d=\"M39.5496 108.49C39.2677 108.186 38.7932 108.169 38.4897 108.45C38.1861 108.732 38.1686 109.207 38.4504 109.51L39.5496 108.49ZM46.0496 115.49L39.5496 108.49L38.4504 109.51L44.9504 116.51L46.0496 115.49Z\" fill=\"#2897B9\"/>\r\n<path d=\"M52.5496 95.4897C52.2677 95.1861 51.7932 95.1686 51.4897 95.4504C51.1861 95.7323 51.1686 96.2068 51.4504 96.5103L52.5496 95.4897ZM59.0496 102.49L52.5496 95.4897L51.4504 96.5103L57.9504 103.51L59.0496 102.49Z\" fill=\"#2897B9\"/>\r\n<path d=\"M65.5496 82.4897C65.2677 82.1861 64.7932 82.1686 64.4897 82.4504C64.1861 82.7323 64.1686 83.2068 64.4504 83.5103L65.5496 82.4897ZM72.0496 89.4897L65.5496 82.4897L64.4504 83.5103L70.9504 90.5103L72.0496 89.4897Z\" fill=\"#2897B9\"/>\r\n<path d=\"M79.5496 69.4897C79.2677 69.1861 78.7932 69.1686 78.4897 69.4504C78.1861 69.7323 78.1686 70.2068 78.4504 70.5103L79.5496 69.4897ZM86.0496 76.4897L79.5496 69.4897L78.4504 70.5103L84.9504 77.5103L86.0496 76.4897Z\" fill=\"#2897B9\"/>\r\n<path d=\"M93.5496 55.4897C93.2677 55.1861 92.7932 55.1686 92.4897 55.4504C92.1861 55.7323 92.1686 56.2068 92.4504 56.5103L93.5496 55.4897ZM100.05 62.4897L93.5496 55.4897L92.4504 56.5103L98.9504 63.5103L100.05 62.4897Z\" fill=\"#2897B9\"/>\r\n<path d=\"M106.55 42.4897C106.268 42.1861 105.793 42.1686 105.49 42.4504C105.186 42.7323 105.169 43.2068 105.45 43.5103L106.55 42.4897ZM113.05 49.4897L106.55 42.4897L105.45 43.5103L111.95 50.5103L113.05 49.4897Z\" fill=\"#2897B9\"/>\r\n<path d=\"M118.55 30.4897C118.268 30.1861 117.793 30.1686 117.49 30.4504C117.186 30.7323 117.169 31.2068 117.45 31.5103L118.55 30.4897ZM125.05 37.4897L118.55 30.4897L117.45 31.5103L123.95 38.5103L125.05 37.4897Z\" fill=\"#2897B9\"/>\r\n</svg>",
+                    "label_disable": "1",
+                    "css": "",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "102": {
+                    "id": "102",
+                    "type": "number",
+                    "label": "What's the approximate square footage of your home? (It's okay to guess or leave blank)",
+                    "description": "",
+                    "size": "large",
+                    "placeholder": "Enter Sq Ft ... ",
+                    "min": "",
+                    "max": "",
+                    "default_value": "",
+                    "css": "enterSq inptLimit",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "141": {
+                    "id": "141",
+                    "type": "checkbox",
+                    "label": "Not Sure SQFT",
+                    "choices": {
+                        "1": {
+                            "label": "I'm not sure.",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "input_columns": "",
+                    "choice_limit": "",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list2 notSure",
+                    "label_hide": "1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "139": {
+                    "id": "139",
+                    "type": "html",
+                    "name": "Field #112 ",
+                    "code": "<p></p>",
+                    "label_disable": "1",
+                    "css": "",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "104": {
+                    "id": "104",
+                    "type": "divider",
+                    "label": " ",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "divider3",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "100": {
+                    "label": "Layout",
+                    "name": "Layout",
+                    "description": "",
+                    "label_hide": "1",
+                    "size": "large",
+                    "preset": "33-33-33",
+                    "display": "columns",
+                    "columns": [
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                127,
+                                128
+                            ]
+                        },
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                129,
+                                130
+                            ]
+                        },
+                        {
+                            "width_preset": "33",
+                            "fields": [
+                                131,
+                                132
+                            ]
+                        }
+                    ],
+                    "id": "100",
+                    "type": "layout"
+                },
+                "142": {
+                    "id": "142",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "linedDivide",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "127": {
+                    "id": "127",
+                    "type": "html",
+                    "name": "How many floors in your home?",
+                    "code": "<h3>How many floors in your home?</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-floor\" type=\"button\" onclick=\"decrementFloorValue()\">-</button>\r\n        <input type=\"text\" id=\"counterFloorValue\" class=\"counter-value-floor\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-floor\" type=\"button\" onclick=\"incrementFloorValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for floors -->\r\n<input type=\"hidden\" class=\"hiddenFloors\">\r\n\r\n<script>\r\nfunction updateFloorCounterValue() {\r\n    var value = parseInt(document.getElementById('counterFloorValue').value, 10);\r\n    // Directly target the WPForms input field for Floors by ID\r\n    var wpFormsInputFloor = document.getElementById('wpforms-4331-field_128');\r\n    if (wpFormsInputFloor) {\r\n        wpFormsInputFloor.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementFloorValue() {\r\n    var value = parseInt(document.getElementById('counterFloorValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterFloorValue').value = value;\r\n    updateFloorCounterValue(); // Update WPForms field value for floors\r\n}\r\n\r\nfunction decrementFloorValue() {\r\n    var value = parseInt(document.getElementById('counterFloorValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterFloorValue').value = value;\r\n    updateFloorCounterValue(); // Update WPForms field value for floors\r\n}\r\n</script>\r\n",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "128": {
+                    "id": "128",
+                    "type": "text",
+                    "label": "How many floors in your home?",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_enabled": "1",
+                    "limit_count": "6",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenFloors",
+                    "map_position": "above",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "129": {
+                    "id": "129",
+                    "type": "html",
+                    "name": "How many rooms have carpet?",
+                    "code": "<h3>How many rooms have carpet?</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-carpet\" type=\"button\" onclick=\"decrementCarpetValue()\">-</button>\r\n        <input type=\"text\" id=\"counterCarpetValue\" class=\"counter-value-carpet\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-carpet\" type=\"button\" onclick=\"incrementCarpetValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for carpets -->\r\n<input type=\"hidden\" class=\"hiddenCarpets\">\r\n\r\n<script>\r\nfunction updateCarpetCounterValue() {\r\n    var value = parseInt(document.getElementById('counterCarpetValue').value, 10);\r\n    // Directly target the WPForms input field for Carpets by ID\r\n    var wpFormsInputCarpet = document.getElementById('wpforms-4331-field_130');\r\n    if (wpFormsInputCarpet) {\r\n        wpFormsInputCarpet.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementCarpetValue() {\r\n    var value = parseInt(document.getElementById('counterCarpetValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterCarpetValue').value = value;\r\n    updateCarpetCounterValue(); // Update WPForms field value for carpets\r\n}\r\n\r\nfunction decrementCarpetValue() {\r\n    var value = parseInt(document.getElementById('counterCarpetValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterCarpetValue').value = value;\r\n    updateCarpetCounterValue(); // Update WPForms field value for carpets\r\n}\r\n</script>\r\n",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "130": {
+                    "id": "130",
+                    "type": "text",
+                    "label": "How many rooms have carpet?",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenCarpet",
+                    "map_position": "above",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "131": {
+                    "id": "131",
+                    "type": "html",
+                    "name": "How many people live with you?",
+                    "code": "<h3>How many people live with you?</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-live\" type=\"button\" onclick=\"decrementLiveValue()\">-</button>\r\n        <input type=\"text\" id=\"counterLiveValue\" class=\"counter-value-live\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-live\" type=\"button\" onclick=\"incrementLiveValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for lives -->\r\n<input type=\"hidden\" class=\"hiddenLives\">\r\n\r\n<script>\r\nfunction updateLiveCounterValue() {\r\n    var value = parseInt(document.getElementById('counterLiveValue').value, 10);\r\n    // Directly target the WPForms input field for Lives by ID\r\n    var wpFormsInputLive = document.getElementById('wpforms-4331-field_132');\r\n    if (wpFormsInputLive) {\r\n        wpFormsInputLive.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementLiveValue() {\r\n    var value = parseInt(document.getElementById('counterLiveValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterLiveValue').value = value;\r\n    updateLiveCounterValue(); // Update WPForms field value for lives\r\n}\r\n\r\nfunction decrementLiveValue() {\r\n    var value = parseInt(document.getElementById('counterLiveValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterLiveValue').value = value;\r\n    updateLiveCounterValue(); // Update WPForms field value for lives\r\n}\r\n</script>",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "132": {
+                    "id": "132",
+                    "type": "text",
+                    "label": "How many people live with you?",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenLive",
+                    "map_position": "above",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "152": {
+                    "id": "152",
+                    "type": "hidden",
+                    "label": "Hidden Field",
+                    "label_disable": "1",
+                    "default_value": "",
+                    "css": "src-field",
+                    "label_hide": "1"
+                },
+                "56": {
+                    "id": "56",
+                    "type": "pagebreak",
+                    "position": "",
+                    "title": "",
+                    "next": "Next Step",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step",
+                    "css": "firstNext2"
+                },
+                "111": {
+                    "id": "111",
+                    "type": "html",
+                    "name": "",
+                    "code": "<svg class=\"pet\" xmlns=\"http://www.w3.org/2000/svg\" width=\"96\" height=\"96\" viewBox=\"0 0 96 96\" fill=\"none\">\r\n<path d=\"M31.6575 54.0886C31.6841 42.5121 38.4613 37.1863 47.9112 37.0041C57.463 36.82 63.8941 42.7792 63.5698 53.9934C63.5434 54.9067 64.0908 55.7502 64.9427 56.0805C79.5611 61.7492 80.9259 72.699 73.8665 80.0734C67.4428 86.7838 58.0938 88.5691 49.3652 81.3636C48.5315 80.6754 47.3024 80.6899 46.4776 81.3887C36.9893 89.4273 26.2469 85.7376 21.3069 79.4753C15.0548 71.5495 17.4544 61.4758 30.3336 56.0833C31.134 55.7481 31.6555 54.9564 31.6575 54.0886Z\" stroke=\"#2897B9\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/>\r\n<circle cx=\"16\" cy=\"36\" r=\"8.75\" stroke=\"#2897B9\" stroke-width=\"2.5\"/>\r\n<circle cx=\"35\" cy=\"18\" r=\"8.75\" stroke=\"#2897B9\" stroke-width=\"2.5\"/>\r\n<circle cx=\"60\" cy=\"18\" r=\"8.75\" stroke=\"#2897B9\" stroke-width=\"2.5\"/>\r\n<circle cx=\"80\" cy=\"36\" r=\"8.75\" stroke=\"#2897B9\" stroke-width=\"2.5\"/>\r\n</svg>",
+                    "label_disable": "1",
+                    "css": "",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "105": {
+                    "id": "105",
+                    "type": "radio",
+                    "label": "We are pet people! Do you have any furry or feathered friends living with you?",
+                    "choices": {
+                        "1": {
+                            "label": "Yes",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "No",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "input_columns": "2",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "136": {
+                    "id": "136",
+                    "type": "html",
+                    "name": "How many pets?",
+                    "code": "<h3>How many pets?</h3>\r\n<div class=\"button-container\">\r\n    <div class=\"counter\">\r\n        <button class=\"counter-button minus-pet\" type=\"button\" onclick=\"decrementPetValue()\">-</button>\r\n        <input type=\"text\" id=\"counterPetValue\" class=\"counter-value-pet\" value=\"0\" readonly>\r\n        <button class=\"counter-button plus-pet\" type=\"button\" onclick=\"incrementPetValue()\">+</button>\r\n    </div>\r\n</div>\r\n\r\n<!-- Hidden Single Line Text Field to store the counter value for pets -->\r\n<input type=\"hidden\" class=\"hiddenPets\">\r\n\r\n<script>\r\nfunction updatePetCounterValue() {\r\n    var value = parseInt(document.getElementById('counterPetValue').value, 10);\r\n    // Directly target the WPForms input field for Pets by ID\r\n    var wpFormsInputPet = document.getElementById('wpforms-4331-field_137');\r\n    if (wpFormsInputPet) {\r\n        wpFormsInputPet.value = value;\r\n    }\r\n}\r\n\r\nfunction incrementPetValue() {\r\n    var value = parseInt(document.getElementById('counterPetValue').value, 10);\r\n    value = isNaN(value) ? 0 : value;\r\n    value++;\r\n    document.getElementById('counterPetValue').value = value;\r\n    updatePetCounterValue(); // Update WPForms field value for pets\r\n}\r\n\r\nfunction decrementPetValue() {\r\n    var value = parseInt(document.getElementById('counterPetValue').value, 10);\r\n    value--;\r\n    if (value < 0) value = 0;\r\n    document.getElementById('counterPetValue').value = value;\r\n    updatePetCounterValue(); // Update WPForms field value for pets\r\n}\r\n</script>",
+                    "label_disable": "1",
+                    "css": "img1",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "105",
+                                "operator": "==",
+                                "value": "1"
+                            },
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "137": {
+                    "id": "137",
+                    "type": "text",
+                    "label": "How many pets? ",
+                    "description": "",
+                    "size": "medium",
+                    "placeholder": "",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "input_mask": "",
+                    "css": "hiddenPet",
+                    "map_position": "above",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "143": {
+                    "id": "143",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "linedDivide",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "62": {
+                    "id": "62",
+                    "type": "pagebreak",
+                    "position": "",
+                    "title": "",
+                    "next": "Next Step",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step",
+                    "css": ""
+                },
+                "64": {
+                    "id": "64",
+                    "type": "radio",
+                    "label": "How can we help you take back your time?",
+                    "choices": {
+                        "1": {
+                            "label": "I need regular cleaning",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "I need regular cleaning",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "3": {
+                            "label": "I'm moving in",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "6": {
+                            "label": "I have a special occasion",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "5": {
+                            "label": "I'm not sure",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "input_columns": "",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "65": {
+                    "id": "65",
+                    "type": "radio",
+                    "label": "How often would you like a cleaning?",
+                    "choices": {
+                        "1": {
+                            "label": "Weekly",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "Bi-Weekly",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "3": {
+                            "label": "Monthly",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "6": {
+                            "label": "One Time",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "5": {
+                            "label": "Not Sure",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "input_columns": "",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "144": {
+                    "id": "144",
+                    "type": "divider",
+                    "label": "",
+                    "description": "",
+                    "label_disable": "1",
+                    "css": "linedDivide",
+                    "conditional_logic": "1",
+                    "conditional_type": "show",
+                    "conditionals": [
+                        [
+                            {
+                                "field": "81",
+                                "operator": "==",
+                                "value": "2"
+                            }
+                        ]
+                    ]
+                },
+                "63": {
+                    "id": "63",
+                    "type": "pagebreak",
+                    "position": "",
+                    "title": "",
+                    "next": "Next Step",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step",
+                    "css": ""
+                },
+                "67": {
+                    "id": "67",
+                    "type": "textarea",
+                    "label": "Is there anything else we may need to know about your cleaning needs?",
+                    "description": "",
+                    "size": "large",
+                    "placeholder": "e.g. moving next week, additional rooms, reason for cleaning, etc.",
+                    "limit_count": "1",
+                    "limit_mode": "characters",
+                    "default_value": "",
+                    "css": "needsInput"
+                },
+                "115": {
+                    "id": "115",
+                    "type": "checkbox",
+                    "label": "How can we first reach out? (Select one or more)",
+                    "choices": {
+                        "1": {
+                            "default": "1",
+                            "label": "Phone Call",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "2": {
+                            "label": "Text",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        },
+                        "3": {
+                            "label": "Email",
+                            "value": "",
+                            "image": "",
+                            "icon": "face-smile",
+                            "icon_style": "regular"
+                        }
+                    },
+                    "choices_images_style": "modern",
+                    "choices_icons_color": "#0399ed",
+                    "choices_icons_size": "large",
+                    "choices_icons_style": "default",
+                    "description": "",
+                    "required": "1",
+                    "input_columns": "",
+                    "choice_limit": "",
+                    "dynamic_choices": "",
+                    "css": "custom-checkbox-list"
+                },
+                "150": {
+                    "id": "150",
+                    "type": "html",
+                    "name": "",
+                    "code": "",
+                    "label_disable": "1",
+                    "css": ""
+                },
+                "16": {
+                    "id": "16",
+                    "type": "pagebreak",
+                    "position": "bottom",
+                    "prev_toggle": "1",
+                    "prev": "Previous Step"
+                }
+            },
+            "id": 44,
+            "field_id": 154,
+            "settings": {
+                "themes": {
+                    "wpformsTheme": "default",
+                    "isCustomTheme": "",
+                    "themeName": "",
+                    "fieldSize": "medium",
+                    "fieldBorderStyle": "solid",
+                    "fieldBorderSize": "1",
+                    "fieldBorderRadius": "3",
+                    "fieldBackgroundColor": "#ffffff",
+                    "fieldBorderColor": "rgba(0, 0, 0, 0.25)",
+                    "fieldTextColor": "rgba(0, 0, 0, 0.7)",
+                    "labelSize": "medium",
+                    "labelColor": "rgba(0, 0, 0, 0.85)",
+                    "labelSublabelColor": "rgba(0, 0, 0, 0.55)",
+                    "labelErrorColor": "#d63637",
+                    "buttonSize": "medium",
+                    "buttonBorderStyle": "none",
+                    "buttonBorderSize": "1",
+                    "buttonBorderRadius": "3",
+                    "buttonBackgroundColor": "#066aab",
+                    "buttonBorderColor": "#066aab",
+                    "buttonTextColor": "#ffffff",
+                    "containerPadding": "0",
+                    "containerBorderStyle": "none",
+                    "containerBorderWidth": "1",
+                    "containerBorderRadius": "3",
+                    "containerBorderColor": "#000000",
+                    "containerShadowSize": "none",
+                    "backgroundColor": "rgba(0, 0, 0, 0)",
+                    "backgroundImage": "none",
+                    "backgroundSize": "cover",
+                    "backgroundUrl": "url()",
+                    "fieldMenuColor": "#ffffff",
+                    "pageBreakColor": "#066aab",
+                    "customCss": "",
+                    "copyPasteJsonValue": "{\"themeName\":\"\",\"isCustomTheme\":\"\",\"wpformsTheme\":\"default\",\"customCss\":\"\",\"containerPadding\":\"0\",\"containerBorderStyle\":\"none\",\"containerBorderWidth\":\"1\",\"containerBorderRadius\":\"3\",\"containerShadowSize\":\"none\",\"containerBorderColor\":\"#000000\",\"fieldSize\":\"medium\",\"fieldBorderStyle\":\"solid\",\"fieldBorderRadius\":\"3\",\"fieldBorderSize\":\"1\",\"fieldBackgroundColor\":\"#ffffff\",\"fieldBorderColor\":\"rgba(0, 0, 0, 0.25)\",\"fieldTextColor\":\"rgba(0, 0, 0, 0.7)\",\"fieldMenuColor\":\"#ffffff\",\"pageBreakColor\":\"#066aab\",\"labelSize\":\"medium\",\"labelColor\":\"rgba(0, 0, 0, 0.85)\",\"labelSublabelColor\":\"rgba(0, 0, 0, 0.55)\",\"labelErrorColor\":\"#d63637\",\"buttonSize\":\"medium\",\"buttonBorderStyle\":\"none\",\"buttonBorderSize\":\"1\",\"buttonBorderRadius\":\"3\",\"buttonBackgroundColor\":\"#066aab\",\"buttonBorderColor\":\"#066aab\",\"buttonTextColor\":\"#ffffff\",\"backgroundColor\":\"rgba(0, 0, 0, 0)\",\"backgroundPosition\":\"center center\",\"backgroundUrl\":\"url()\",\"backgroundRepeat\":\"no-repeat\",\"backgroundSize\":\"cover\",\"backgroundSizeMode\":\"cover\",\"backgroundWidth\":\"100\",\"backgroundHeight\":\"100\",\"backgroundImage\":\"none\"}"
+                },
+                "form_title": "Tell us about your home!",
+                "form_desc": "~",
+                "submit_text": "Submit",
+                "submit_text_processing": "Submitting ...",
+                "form_class": "requestForm",
+                "submit_class": "requestFormBtn",
+                "ajax_submit": "1",
+                "notification_enable": "1",
+                "notifications": {
+                    "1": {
+                        "enable": "1",
+                        "notification_name": "Default Notification",
+                        "email": "info@merrymaidsottawa.ca",
+                        "subject": "New Entry: Long Form",
+                        "sender_name": "Merry Maids of Ottawa",
+                        "sender_address": "{admin_email}",
+                        "replyto": "info@merrymaidsottawa.ca",
+                        "message": "{all_fields}",
+                        "template": "",
+                        "file_upload_attachment_fields": [],
+                        "entry_csv_attachment_entry_information": [],
+                        "entry_csv_attachment_file_name": "entry-details"
+                    }
+                },
+                "confirmations": {
+                    "1": {
+                        "name": "Default Confirmation",
+                        "type": "page",
+                        "message": "<h2>Relax, it\u2019s done! Keep a look out for a confirmation notification and next steps.</h2>",
+                        "message_scroll": "1",
+                        "page": "2256",
+                        "page_url_parameters": "",
+                        "redirect": "https://limea63.sg-host.com/thanks/",
+                        "message_entry_preview_style": "basic"
+                    }
+                },
+                "antispam": "1",
+                "anti_spam": {
+                    "time_limit": {
+                        "duration": "2"
+                    },
+                    "filtering_store_spam": "1",
+                    "country_filter": {
+                        "action": "allow",
+                        "country_codes": [],
+                        "message": "Sorry, this form does not accept submissions from your country."
+                    },
+                    "keyword_filter": {
+                        "message": "Sorry, your message can't be submitted because it contains prohibited words."
+                    }
+                },
+                "form_tags": [],
+                "store_spam_entries": "0"
+            },
+            "search_terms": "",
+            "providers": {
+                "constant-contact-v3": []
+            },
+            "meta": {
+                "template": "d186335d38308dfdbef54a99dcddeed2",
+                "lead_forms": {
+                    "iif_id_ref": "11"
+                }
+            }
+        }
+    }
+}
